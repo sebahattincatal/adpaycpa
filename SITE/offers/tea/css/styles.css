@@ -1,0 +1,61 @@
+body {background: white; font-size: 17px; font-family: Arial, Tahoma; color: black; margin: 0; padding: 0;}
+
+/* Первый блок */
+.block_1 {position: relative; width: 100%; height: 1670px; margin: 0px 0 0 0px; background: url(../img/block_1.jpg) no-repeat top center;}
+.block_1_970 {position: relative; width: 970px; height: 1670px; margin: 0px auto; background: url(../img/block_1_970.jpg) no-repeat top center;}
+
+/* Второй блок */
+.block_2 {position: relative; width: 100%; height: 310px; margin: 0px 0 0 0px; background: url(../img/block_2.jpg) no-repeat top center;}
+.block_2_970 {position: relative; width: 970px; height: 310px; margin: 0px auto; background: none;}
+.block_2_970_text1 {position: absolute; margin: 0px 0 0 284px; width: 190px; height: 310px; font-family: arial; font-weight: normal; font-size: 14px; color: black; padding-top: 10px;}
+.block_2_970_text2 {position: absolute; margin: 0px 0 0 779px; width: 190px; height: 310px; font-family: arial; font-weight: normal; font-size: 14px; color: black; padding-top: 10px;}
+
+/* Третий блок */
+.block_3 {position: relative; width: 100%; height: 287px; margin: 0px 0 0 0px; background: white;}
+.block_3_970 {position: relative; width: 970px; height: 287px; margin: 0px auto; background: url(../img/block_3_970.jpg) no-repeat top center;}
+.block_3_970_text {position: absolute; margin: 23px 0 0 306px; width: 664px; height: 112px; font-family: arial; font-weight: normal; font-size: 14px; color: black; padding-top: 25px; text-align: center;}
+
+/* Четвертый блок */
+.block_4 {position: relative; width: 100%; height: 606px; margin: 0px 0 0 0px; background: url(../img/block_4.jpg) no-repeat top center;}
+.block_4_970 {position: relative; width: 970px; height: 606px; margin: 0px auto; background: url(../img/block_4_970.jpg) no-repeat top center;}
+.block_4_970_place {position: absolute; margin: 79px 0 0 253px; width: 463px; background: none;}
+.block_4_970_place_el1 {position: relative; margin: 10px 0 0 10px; padding: 0px; background: none; font-family: arial; font-weight: normal; font-size: 16px; color: white;}
+.block_4_970_place_el2 {position: relative; margin: 3px 0 0 10px; padding: 0px; width: 363px; height: 40px; background: url(../img/block_4_970_place_el2.png);}
+.block_4_970_place_el3 {position: relative; margin: 8px 0 0 10px; padding: 0px; background: none; font-family: arial; font-weight: normal; font-size: 16px; color: white;}
+.block_4_970_place_el4 {position: relative; margin: 3px 0 0 10px; padding: 0px; width: 363px; height: 40px; background: url(../img/block_4_970_place_el4.png);}
+.block_4_970_place_el5 {position: relative; margin: 10px 0 0 10px; padding: 0px; background: none; font-family: arial; font-weight: bold; font-size: 18px; color: white;}
+.block_4_970_place_el6 {position: relative; margin: 1px 0 0 10px; padding: 0px; background: none; font-family: arial; font-weight: bold; font-size: 24px; color: #ffef61;}
+.block_4_970_place_el7 {position: relative; margin: 10px 0 0 10px; padding: 0px; background: none; font-family: arial; font-weight: bold; font-size: 16px; color: white; line-height: 20px;}
+.block_4_970_place_el8 {position: relative; margin: 10px 0 0 10px; padding: 0px; background: none; font-family: arial; font-weight: bold; font-size: 16px; color: white; line-height: 20px;}
+.block_4_970_place_el9 {position: relative; margin: 10px 0 0 10px; padding: 0px; background: none; font-family: arial; font-weight: bold; font-size: 16px; color: white; line-height: 20px;}
+.block_4_970_place_el10 {position: relative; margin: 12px 0 0 10px; padding: 0px; background: none; font-family: arial; font-weight: normal; font-size: 18px; color: white;}
+.block_4_970_place_button {position: relative; margin: 18px 0px 0 105px; padding: 0px; width: 254px; height: 79px; background: url(../img/block_4_970_place_button.png); cursor: pointer; border: 0;}
+.block_4_970_place_button:hover {background-position: 0 79px; cursor: pointer;}
+.block_4_970_place_cena {cursor: pointer;}
+.l {display: inline-block; vertical-align: top; cursor: pointer;}
+.r {margin-left: 7px; display: inline-block; cursor: pointer;}
+.block_4_970_place_el2_input {position: absolute; margin: 7px 0 0 7px; padding: 0px 10px 0 10px; width: 330px; height: 26px; background: none; border: 0; font-family: arial; font-weight: normal; font-size: 18px; color: #01518e; text-align: left; line-height: 18px; outline: none;}
+.hour {position: absolute; margin: 288px 0 0 740px; width: 57px; height: 45px; font-family: arial; font-weight: normal; font-size: 44px; color: #0578c0; text-align: center; line-height: 45px;}
+.hour2 {position: absolute; margin: 286px 0 0 738px; width: 57px; height: 45px; font-family: arial; font-weight: normal; font-size: 44px; color: white; text-align: center; line-height: 45px;}
+.min {position: absolute; margin: 288px 0 0 814px; width: 57px; height: 45px; font-family: arial; font-weight: normal; font-size: 44px; color: #0578c0; text-align: center; line-height: 45px;}
+.min2 {position: absolute; margin: 286px 0 0 812px; width: 57px; height: 45px; font-family: arial; font-weight: normal; font-size: 44px; color: white; text-align: center; line-height: 45px;}
+.sec {position: absolute; margin: 288px 0 0 887px; width: 57px; height: 45px; font-family: arial; font-weight: normal; font-size: 44px; color: #0578c0; text-align: center; line-height: 45px;}
+.sec2 {position: absolute; margin: 286px 0 0 885px; width: 57px; height: 45px; font-family: arial; font-weight: normal; font-size: 44px; color: white; text-align: center; line-height: 45px;}
+.ostalos2 {position: absolute; margin: 367px 0 0 763px; width: 68px; height: 54px; font-family: arial; font-weight: bold; font-size: 50px; color: #ffef61; text-align: center; line-height: 54px;}
+.ostalos {position: absolute; margin: 369px 0 0 765px; width: 68px; height: 54px; font-family: arial; font-weight: bold; font-size: 50px; color: #0578c0; text-align: center; line-height: 54px;}
+
+/* Пятый блок */
+.block_5 {position: relative; width: 100%; height: 270px; margin: 0px 0 0 0px; background: url(../img/block_5.jpg) no-repeat top center;}
+.block_5_970 {position: relative; width: 970px; height: 270px; margin: 0px auto; background: url(../img/block_5_970.jpg) no-repeat top center;}
+.block_5_970_text1 {position: absolute; margin: 190px 0 0 0px; font-family: arial; font-weight: normal; font-size: 14px; color: #909090; line-height: 16px;}
+.block_5_970_text2 {position: absolute; margin: 210px 0 0 0px; font-family: arial; font-weight: normal; font-size: 14px; color: #909090; line-height: 16px;}
+
+.fon_ok {position: absolute; margin: -114px 0 0 -250px; left: 50%; top: 50%; width: 500px; height: 228px; background: url(../img/fon_ok.png) no-repeat center 0; z-index: 1000; border: 0px; text-align: center;}
+.fon_ok_title {font-size: 25px; position: relative; margin-top: 50px; color: #005298;font-family: arial; line-height: 41px; text-align: center;}
+.fon_ok_about {font-size: 20px; position: relative; margin-top: 5px; margin-right: 55px; color: gray;font-family: arial; line-height: 41px; text-align: right;}
+#close {position: absolute; margin: 26px 0 0 455px; width: 16px; height: 16px; background: url(../img/close.png); z-index: 51; border: 0; cursor: pointer;}
+
+a {text-decoration: none; color: black; border-bottom: 1px dashed black;}
+a:hover {text-decoration: none; color: black; border-bottom: 1px solid black;}
+a.text-link {cursor: text; color: black; text-decoration: none;}
+

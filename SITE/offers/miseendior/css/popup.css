@@ -1,0 +1,76 @@
+﻿
+.overlay {
+    display:none;
+    position:fixed;
+    z-index:999;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background:#000;
+}
+
+.popup {
+    display:none;
+    position:fixed;
+    border:3px solid #999;
+    background:#fff;
+    top:50%;
+    left:50%;
+    margin:-225px 0 0 -225px;
+    z-index:1000;
+    border-radius:8px;
+    padding:18px;
+    width: 450px;
+    text-align: center;
+}
+
+.close {
+    display:block;
+    width:24px;
+    text-align:center;
+    cursor:pointer;
+    height:24px;
+    line-height:24px;
+    background:#fff;
+    color:red;
+    position:absolute;
+    top:10px;
+    right:10px;
+    text-decoration:none;
+    font-size:20px;
+}
+
+.input_holder {
+    border: #7F9DB9 1px solid;
+    width: 230px;
+    margin: 0 auto 12px;
+}
+
+.input_holder > span {
+    margin-left: 5px;
+}
+
+.input_holder,
+.input_holder input {
+    font-size: 17px;
+}
+
+.input_holder input {
+    border: 0;
+    display: inline-block;
+}
+
+.popup .content_wrapper p {
+    font-size: 18px;
+}
+
+#response {
+    color: red;
+}
+
+.open_popup {
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.button{
+	display: block;
+	width:172px;
+	height: 49px;
+	background: url(../img/bt_01.png)/*tpa=http://led-time.ru/img/bt_01.png*/ 0 -49px no-repeat;
+	margin: 0 auto;
+	font: 20px/49px calibri;
+	color:#ffffff;
+	border: none;
+}
+	.button:hover{
+		background-position: 0 0;
+	}
+
+.input {
+	BORDER-RIGHT: #7F9DB9 1px solid; BORDER-TOP: #7F9DB9 1px solid; BORDER-LEFT: #7F9DB9 1px solid; WIDTH: 220px; BORDER-BOTTOM: #7F9DB9 1px solid
+}
+.input2 {
+	BORDER-RIGHT: #7F9DB9 1px solid; BORDER-TOP: #7F9DB9 1px solid; BORDER-LEFT: #7F9DB9 1px solid; WIDTH: 40px; BORDER-BOTTOM: #7F9DB9 1px solid
+}
+.cod {
+	BORDER-RIGHT: #7F9DB9 1px solid; BORDER-TOP: #7F9DB9 1px solid; BORDER-LEFT: #7F9DB9 1px solid; WIDTH: 40px; BORDER-BOTTOM: #7F9DB9 1px solid
+}
+.phone {
+	BORDER-RIGHT: #7F9DB9 1px solid; BORDER-TOP: #7F9DB9 1px solid; BORDER-LEFT: #7F9DB9 1px solid; WIDTH: 117px; BORDER-BOTTOM: #7F9DB9 1px solid
+}
+.small {font-size: 9px;}
+.small2 {font-size: 11px;}

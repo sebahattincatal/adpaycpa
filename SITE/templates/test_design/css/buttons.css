@@ -1,0 +1,2 @@
+.others_button_sohranit, .others_button_vyvesti, .others_button_dalee, .others_button_sendmessage {position: relative; min-width: 161px; margin: 0px 0px 0px 0px; font-size: 14px; height: 37px; line-height: 29px; background: #2d5ea3; color: white; border-radius:6px; -webkit-border-radius:6px; -moz-border-radius: 6px; -khtml-border-radius: 6px; letter-spacing: 0.5px;}
+.others_button_dalee:hover, .others_button_vyvesti:hover, .others_button_sohranit:hover, .others_button_sendmessage:hover {background: #ff9302; color: black; cursor: pointer;}

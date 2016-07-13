@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /includes/
+Disallow: /lib/
+Disallow: /localizations/
+Disallow: /modules/
+Disallow: /offers/
+Disallow: /templates/
+Disallow: /tmp/
+Disallow: /vitrina/
+Host: adpaycpa.com

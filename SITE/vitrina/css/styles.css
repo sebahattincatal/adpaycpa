@@ -1,0 +1,155 @@
+body,html {background: white; font-family: Tahoma, Arial; font-weight: normal; font-size: 16px; color: #2d2d2d; letter-spacing: 1px; margin: 0; padding: 0;}
+label, input[type=radio], input[type=checkbox] {cursor: pointer;}
+
+/* Главная страница (до авторизации) */
+
+.block1 {position: relative; width: 100%; height: 95px; background: white;}
+.block1_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 95px; background: white; background-position: -475px 0;}
+.block1_biglogo {position: absolute; margin: 0px 0px 0px 0px; width: 473px; height: 95px; background: url(../img/block1_biglogo.png);}
+.block1_logotext1 {position: absolute; margin: 11px 0px 0px 76px; font-family: Tahoma, Arial; font-weight: bold; font-size: 38px; color: #7a7a7a; letter-spacing: 1px;}
+.block1_logotext2 {position: absolute; margin: 56px 0px 0px 77px; font-family: Tahoma, Arial; font-weight: normal; font-size: 18px; color: #2d2d2d; letter-spacing: 0.3px;}
+.block1_button_register {position: absolute; margin: 29px 0px 0px 477px; width: 173px; height: 37px; background: url(../img/block1_button_register.png); border: 0;}
+.block1_button_recover {position: absolute; margin: 29px 0px 0px 658px; width: 173px; height: 37px; background: url(../img/block1_button_recover.png); border: 0;}
+.block1_button_login {position: absolute; margin: 29px 0px 0px 839px; width: 131px; height: 37px; background: url(../img/block1_button_login.png); border: 0;}
+.block1_button_register:hover, .block1_button_recover:hover, .block1_button_login:hover {background-position: 0px 37px; cursor: pointer;}
+
+.block2 {position: relative; width: 100%; height: 50px; background: #414141;}
+.block2_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 50px; background: #414141; background-position: -475px 0; text-align: center; font-family: Tahoma, Arial; font-size: 18px; color: white; font-weight: bold; text-decoration: none; line-height: 50px; letter-spacing: 1px;}
+.block2_a_place {display: inline-block; margin: 0px 35px 0px 35px;}
+.block2_content a {font-family: Tahoma, Arial; font-size: 18px; color: #fec901; font-weight: bold; text-decoration: none; height: 50px; line-height: 50px; border-bottom: 3px solid #fec901; letter-spacing: 1px; padding: 0px 0px 10px 0px}
+.block2_content a:hover {color: #fec901; text-decoration: none; border-bottom: 3px solid #fec901; padding: 0px 0px 0px 0px}
+#divCountdown {color: #fec901;}
+
+.block3 {position: relative; width: 100%; height: 524px; background: url(../img/block3.jpg) top center repeat-x;}
+.block3_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 524px; background: url(../img/block3_content.png) top center no-repeat;}
+.block3_zagolovok1 {position: absolute; margin: 21px 0px 0px 531px; width: 276px; height: 34px; background: none; border: 0; line-height: 34px; text-align: center; font-family: Tahoma, Arial; font-size: 15px; color: white; font-weight: bold; text-decoration: none; letter-spacing: 0.8px;}
+.block3_zagolovok2 {position: absolute; margin: 274px 0px 0px 531px; width: 276px; height: 34px; background: none; border: 0; line-height: 34px; text-align: center; font-family: Tahoma, Arial; font-size: 15px; color: white; font-weight: bold; text-decoration: none; letter-spacing: 0.8px;}
+.block3_newsblock1 {position: absolute; margin: 76px 0px 0px 530px; width: 418px; height: 156px; background: none; border: 0; line-height: 26px; text-align: left; font-family: Tahoma, Arial; font-size: 14px; color: white; font-weight: normal; text-decoration: none; letter-spacing: 0.2px;}
+.block3_newsblock2 {position: absolute; margin: 329px 0px 0px 530px; width: 418px; height: 156px; background: none; border: 0; line-height: 26px; text-align: left; font-family: Tahoma, Arial; font-size: 14px; color: white; font-weight: normal; text-decoration: none; letter-spacing: 0.2px;}
+.block3_zagolovok1_1 {position: absolute; margin: 33px 0px 0px 25px; font-family: Tahoma, Arial; font-size: 30px; color: white; font-weight: bold; text-decoration: underline; letter-spacing: 0.8px;}
+.block3_zagolovok2_2 {position: absolute; margin: 285px 0px 0px 25px; font-family: Tahoma, Arial; font-size: 30px; color: white; font-weight: bold; text-decoration: underline; letter-spacing: 0.8px;}
+.block3_podzagolovok1_1 {position: absolute; margin: 78px 0px 0px 85px; font-family: Tahoma, Arial; font-size: 18px; color: white; font-weight: normal; text-decoration: none; letter-spacing: 0.8px; line-height: 55px;}
+.block3_podzagolovok2_2 {position: absolute; margin: 331px 0px 0px 85px; font-family: Tahoma, Arial; font-size: 18px; color: white; font-weight: normal; text-decoration: none; letter-spacing: 0.8px; line-height: 55px;}
+.block3_newsblock1 a, .block3_newsblock2 a {color: white; text-decoration: none; border-bottom: 1px dashed white;}
+.block3_newsblock1 a:hover, .block3_newsblock2 a:hover {color: white; text-decoration: none; border-bottom: 1px solid white;}
+.block3_newsblock1 span, .block3_newsblock2 span {margin-right: 10px; color: #fec901;}
+.block3_button_podrobnee1 {position: absolute; margin: 196px 0px 0px 21px; width: 131px; height: 37px; background: url(../img/block3_button_podrobnee.png); border: 0;}
+.block3_button_nachat1 {position: absolute; margin: 196px 0px 0px 160px; width: 131px; height: 37px; background: url(../img/block3_button_nachat.png); border: 0;}
+.block3_button_podrobnee2 {position: absolute; margin: 447px 0px 0px 21px; width: 131px; height: 37px; background: url(../img/block3_button_podrobnee.png); border: 0;}
+.block3_button_nachat2 {position: absolute; margin: 447px 0px 0px 160px; width: 131px; height: 37px; background: url(../img/block3_button_nachat.png); border: 0;}
+.block3_button_podrobnee1:hover, .block3_button_podrobnee2:hover, .block3_button_nachat1:hover, .block3_button_nachat2:hover {background-position: 0px 37px; cursor: pointer;}
+
+.block4 {position: relative; width: 100%; height: 371px; background: url(../img/block4.jpg) top center repeat-x;}
+.block4_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 371px; background: url(../img/block4_content.png) top center no-repeat;}
+.block4_zagolovok {position: absolute; margin: 17px 0px 0px 0px; width: 970px; text-align: center; font-family: Tahoma, Arial; font-size: 30px; color: #2d2d2d; font-weight: bold; text-decoration: underline; letter-spacing: 0.8px;}
+.block4_podzagolovok1 {position: absolute; margin: 275px 0px 0px 42px; font-family: Tahoma, Arial; font-size: 16px; color: #2d2d2d; font-weight: normal; text-decoration: none; letter-spacing: 0.8px; line-height: 22px; text-align: center;}
+.block4_podzagolovok2 {position: absolute; margin: 275px 0px 0px 375px; font-family: Tahoma, Arial; font-size: 16px; color: #2d2d2d; font-weight: normal; text-decoration: none; letter-spacing: 0.8px; line-height: 22px; text-align: center;}
+.block4_podzagolovok3 {position: absolute; margin: 275px 0px 0px 678px; font-family: Tahoma, Arial; font-size: 16px; color: #2d2d2d; font-weight: normal; text-decoration: none; letter-spacing: 0.8px; line-height: 22px; text-align: center;}
+
+.block5 {position: relative; width: 100%; height: 116px; background: #ff8b02;}
+.block5_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 116px; line-height: 116px; background: #ff8b02;}
+.block5_zagolovok {position: absolute; margin: 0px 0px 0px 25px; width: 970px; text-align: left; font-family: Tahoma, Arial; font-size: 24px; color: white; font-weight: bold; text-decoration: none; letter-spacing: 0.8px;}
+
+
+.block5_button_register {position: absolute; margin: 39px 0px 0px 772px; min-width: 173px; font-size: 14px; height: 37px; line-height: 29px; background: #2d5ea3; color: white; border-radius:6px; -webkit-border-radius:6px; -moz-border-radius: 6px; -khtml-border-radius: 6px; letter-spacing: 0.5px;}
+.block5_button_register:hover {background: #ff9302; color: black; cursor: pointer;}
+
+
+.block6 {position: relative; width: 100%; height: 331px; background: url(../img/block6.jpg) top center repeat-x;}
+.block6_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 331px; background: url(../img/block6_content.png) top center no-repeat;}
+.block6_zagolovok {position: absolute; margin: 17px 0px 0px 0px; width: 970px; text-align: center; font-family: Tahoma, Arial; font-size: 30px; color: white; font-weight: bold; text-decoration: underline; letter-spacing: 0.8px;}
+.block6_podzagolovok1 {position: absolute; margin: 256px 0px 0px 94px; font-family: Tahoma, Arial; font-size: 16px; color: #fec901; font-weight: normal; text-decoration: none; letter-spacing: 0.8px; line-height: 22px; text-align: center;}
+.block6_podzagolovok2 {position: absolute; margin: 256px 0px 0px 381px; font-family: Tahoma, Arial; font-size: 16px; color: #fec901; font-weight: normal; text-decoration: none; letter-spacing: 0.8px; line-height: 22px; text-align: center;}
+.block6_podzagolovok3 {position: absolute; margin: 256px 0px 0px 717px; font-family: Tahoma, Arial; font-size: 16px; color: #fec901; font-weight: normal; text-decoration: none; letter-spacing: 0.8px; line-height: 22px; text-align: center;}
+
+.block7 {position: relative; width: 100%; height: 83px; background: white;}
+.block7_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 83px; background: white; line-height: 83px;}
+.block7_content a {margin: 0px 0px 0px 25px; font-family: Tahoma, Arial; font-size: 16px; color: #2d2d2d; font-weight: normal; text-decoration: none; border-bottom: 1px dashed #2d2d2d;}
+.block7_content a:hover {color: #2d2d2d; border-bottom: 1px solid #2d2d2d;}
+.block7_webmoney {position: absolute; margin: 28px 0px 0px 857px; width: 88px; height: 31px; background: url(../img/block7_webmoney.png); border: 1px solid #d0d0d0;}
+
+.registration_table {border: 0;}
+.registration_table tr {height: 35px; valign: middle;}
+
+/* Второстепенные страницы (до авторизации) */
+
+.others_block1 {position: relative; width: 100%; height: 95px; background: white;}
+.others_block1_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 95px; background: white; background-position: -475px 0;}
+.others_block1_biglogo {position: absolute; margin: 0px 0px 0px 0px; width: 473px; height: 95px; background: url(../img/block1_biglogo.png);}
+.others_block1_logotext1 {position: absolute; margin: 11px 0px 0px 76px; font-family: Tahoma, Arial; font-weight: bold; font-size: 38px; color: #7a7a7a; letter-spacing: 1px;}
+.others_block1_logotext2 {position: absolute; margin: 56px 0px 0px 77px; font-family: Tahoma, Arial; font-weight: normal; font-size: 18px; color: #2d2d2d; letter-spacing: 0.3px;}
+.others_block1_button_register {position: absolute; margin: 29px 0px 0px 477px; width: 173px; height: 37px; background: url(../img/block1_button_register.png); border: 0;}
+.others_block1_button_recover {position: absolute; margin: 29px 0px 0px 658px; width: 173px; height: 37px; background: url(../img/block1_button_recover.png); border: 0;}
+.others_block1_button_login {position: absolute; margin: 29px 0px 0px 839px; width: 131px; height: 37px; background: url(../img/block1_button_login.png); border: 0;}
+.others_block1_button_register:hover, .others_block1_button_recover:hover, .others_block1_button_login:hover {background-position: 0px 37px; cursor: pointer;}
+
+.others_block2 {position: relative; width: 100%; height: 50px; background: #414141;}
+.others_block2_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 50px; background: #414141; background-position: -475px 0; text-align: center;}
+.others_block2_a_place {display: inline-block; margin: 0px 35px 0px 35px;}
+.others_block2_content a {font-family: Tahoma, Arial; font-size: 18px; color: white; font-weight: bold; text-decoration: none; height: 50px; line-height: 50px; border-bottom: 3px solid #414141; letter-spacing: 1px;}
+.others_block2_content a:hover {color: #fec901; text-decoration: none; border-bottom: 3px solid #fec901; padding: 0px 0px 10px 0px}
+
+.others_block3 {position: relative; width: 100%; height: 77px; background: #414141; background: url(../img/block3others.jpg) top center no-repeat;}
+.others_block3_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 77px; background: none;}
+.others_block3_zagolovok {position: absolute; margin: 17px 0px 0px 0px; width: 970px; font-family: Tahoma, Arial; font-size: 30px; color: #2d2d2d; font-weight: bold; text-decoration: underline; letter-spacing: 0.8px;}
+
+.others_block4 {position: relative; width: 100%; height: 61px; background: #414141; background: url(../img/block4others.png) top center no-repeat;}
+.others_block4_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 61px; background: none;}
+.others_block4_zagolovok {position: absolute; margin: 17px 0px 0px 0px; width: 970px; text-align: center; font-family: Tahoma, Arial; font-size: 22px; color: white; font-weight: bold; text-decoration: none; letter-spacing: 0.8px;}
+
+.others_block5 {position: relative; width: 100%; background: #414141; background: white;}
+.others_block5_content {position: relative; margin: 0px auto 0px auto; width: 970px; background: white;}
+
+.others_block5_ramka_up {position: relative; margin: 20px 0px 0px 0px; width: 970px; height: 11px; background: url(../img/others_block5_ramka_up.png);}
+.others_block5_ramka_fon {position: relative; margin: 0px 0px 0px 0px; width: 970px; min-height: 1px; background: url(../img/others_block5_ramka_fon.png);}
+.others_block5_ramka_down {position: relative; margin: 0px 0px 20px 0px; width: 970px; height: 11px; background: url(../img/others_block5_ramka_down.png);}
+.others_block5_offer_promo {position: relative; margin: 0px 0px 0px 11px; width: 150px; height: 70px; background: white; border: 1px solid #ff8b00;}
+.others_block5_offer_promo:hover {border: 1px solid #2d2d2d;}
+
+.others_block5_offer_promo_big {position: relative; margin: 0px 0px 0px 0px; width: 150px; height: 150px; background: white; border: 1px solid #ff8b00;}
+.others_block5_offer_promo_big:hover {border: 1px solid #2d2d2d;}
+
+.others_block5_offer_text {position: absolute; margin: 0px 0px 0px 175px; font-family: Tahoma, Arial; font-weight: normal; font-size: 16px; color: #2d2d2d; letter-spacing: 1px; line-height: 24px;}
+.others_block5_offer_text span {font-weight: bold; color: #ff8b00;}
+.others_block5_offer_text a {color: #2d2d2d; text-decoration: none; border-bottom: 1px dashed #2d2d2d;}
+.others_block5_offer_text a:hover {color: #2d2d2d; text-decoration: none; border-bottom: 1px solid #2d2d2d;}
+
+.others_block5_offer_text2 {position: relative; margin: 0px 0px 0px 0px; width: 200px; font-family: Tahoma, Arial; font-weight: normal; font-size: 12px; color: #2d2d2d; letter-spacing: 1px; line-height: 19px; text-align: center;}
+.others_block5_offer_text2 span {font-weight: bold; color: #ff8b00;}
+.others_block5_offer_text2 a {color: #2d2d2d; text-decoration: none; border-bottom: 1px dashed #2d2d2d;}
+.others_block5_offer_text2 a:hover {color: #2d2d2d; text-decoration: none; border-bottom: 1px solid #2d2d2d;}
+
+.others_block5_content p {position: relative; margin: 20px 0px 20px 0px; font-family: Tahoma, Arial; font-weight: normal; font-size: 16px; color: #2d2d2d; letter-spacing: 1px; line-height: 24px;}
+.others_block5_content a {color: #2d2d2d; text-decoration: none; border-bottom: 1px dashed #2d2d2d;}
+.others_block5_content a:hover {color: #2d2d2d; text-decoration: none; border-bottom: 1px solid #2d2d2d;}
+
+.others_block6 {position: relative; width: 100%; height: 400px; background: #414141; background: url(../img/block6others.jpg) top center no-repeat;}
+.others_block6_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 400px;  background: url(../img/block6others_content.png) top center no-repeat;}
+.others_block6_zagolovok {position: absolute; margin: 22px 0px 0px 0px; width: 970px; text-align: center; font-family: Tahoma, Arial; font-size: 24px; color: white; font-weight: bold; text-decoration: underline; letter-spacing: 0.8px;}
+.others_block6_podzagolovok1 {position: absolute; margin: 85px 0px 0px 110px; font-family: Tahoma, Arial; font-size: 16px; color: #fec901; font-weight: bold; text-decoration: none; letter-spacing: 0.8px;}
+.others_block6_podzagolovok2 {position: absolute; margin: 285px 0px 0px 110px; font-family: Tahoma, Arial; font-size: 16px; color: #fec901; font-weight: bold; text-decoration: none; letter-spacing: 0.8px;}
+.others_block6_text1 {position: absolute; margin: 130px 0px 0px 0px; font-family: Tahoma, Arial; font-size: 16px; color: white; font-weight: normal; text-decoration: none; letter-spacing: 0.8px; line-height: 20px;}
+.others_block6_text2 {position: absolute; margin: 330px 0px 0px 0px; font-family: Tahoma, Arial; font-size: 16px; color: white; font-weight: normal; text-decoration: none; letter-spacing: 0.8px; line-height: 20px;}
+
+.others_block7 {position: relative; width: 100%; height: 116px; background: #ff8b02;}
+.others_block7_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 116px; line-height: 116px; background: #ff8b02;}
+.others_block7_zagolovok {position: absolute; margin: 0px 0px 0px 25px; width: 970px; text-align: left; font-family: Tahoma, Arial; font-size: 24px; color: white; font-weight: bold; text-decoration: none; letter-spacing: 0.8px;}
+.others_block7_button_register {position: absolute; margin: 39px 0px 0px 772px; width: 173px; height: 37px; background: url(../img/block1_button_register.png); border: 0;}
+.others_block7_button_register:hover {background-position: 0px 37px; cursor: pointer;}
+
+.others_block8 {position: relative; width: 100%; height: 83px; background: white;}
+.others_block8_content {position: relative; margin: 0px auto 0px auto; width: 970px; height: 83px; background: white; line-height: 83px;}
+.others_block8_content a {margin: 0px 25px 0px 0px; font-family: Tahoma, Arial; font-size: 16px; color: #2d2d2d; font-weight: normal; text-decoration: none; border-bottom: 1px dashed #2d2d2d;}
+.others_block8_content a:hover {color: #2d2d2d; border-bottom: 1px solid #2d2d2d;}
+.others_block8_webmoney {position: absolute; margin: 28px 0px 0px 882px; width: 88px; height: 31px; background: url(../img/block7_webmoney.png); border: 1px solid #d0d0d0;}
+
+.others_button_enter {position: relative; margin: 10px 0px 0px 0px; width: 173px; height: 37px; background: url(../img/others_button_enter.png); border: 0;}
+.others_button_dalee {position: relative; margin: 10px 0px 0px 0px; width: 173px; height: 37px; background: url(../img/others_button_dalee.png); border: 0;}
+.others_button_registration {position: relative; margin: 10px 0px 0px 0px; width: 173px; height: 37px; background: url(../img/others_button_registration.png); border: 0;}
+.others_button_sohranit {position: relative; margin: 10px 0px 0px 0px; width: 173px; height: 37px; background: url(../img/others_button_sohranit.png); border: 0;}
+.others_button_vyvesti {position: relative; margin: 10px 0px 0px 0px; width: 173px; height: 37px; background: url(../img/others_button_vyvesti.png); border: 0;}
+.others_button_addoffer {position: relative; margin: 10px 0px 0px 0px; width: 173px; height: 37px; background: url(../img/others_button_addoffer.png); border: 0;}
+.others_button_sendmessage {position: relative; margin: 10px 0px 0px 0px; width: 173px; height: 37px; background: url(../img/others_button_sendmessage.png); border: 0;}
+.others_button_enter:hover, .others_button_dalee:hover, .others_button_registration:hover, .others_button_sohranit:hover, .others_button_vyvesti:hover, .others_button_addoffer:hover, .others_button_sendmessage:hover {background-position: 0px 37px; cursor: pointer;}
+
+.img_vitrina {margin: 10px 10px 10px 0px; width: 200px; height: 200px; border: 1px solid gray; padding: 0; text-decoration: none;}
