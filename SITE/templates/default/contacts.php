@@ -1,74 +1,75 @@
 
-	<div class="wrapper">
-		<!--[if lt IE 9]>
-			<div class="browsehappy"><?php echo $loc['service']['t01']; ?></div>
-		<![endif]-->
+	<main>
+		
+		<div class="page-title">
+			<div class="container">
+				<h1><?php echo $loc['contacts.php']['t01']; ?></h1>
+				<span><?php echo $loc['contacts.php']['t02']; ?> <br><?php echo $loc['contacts.php']['t03']; ?></span>
+			</div><!-- container -->
+		</div><!-- page-title -->
+		
+		<div class="adget-map">
+			<div id="map_addresses" class="map"><p>This will be replaced with the Google Map.</p></div>
+		</div><!-- Cpain-map -->
 
-		<?php
-		// Выводим шапку сайта
-		// Print cap site
-		include './templates/'.$template.'/blocks/shapka_not_login.php';
-
-		// Выводим верхнее горизонтальное меню
-		// Display the top horizontal menu
-		include './templates/'.$template.'/blocks/top_menu_not_login.php';
-		?>
-
-		<div class="page">
-			<div class="cnt">
-				<div class="page__title"><span><?php echo $loc['contacts.php']['t01']; ?></span></div>
-				<div class="page__text">
-					<h2><?php echo $loc['contacts.php']['t02']; ?></h2>
-					<?php echo $loc['contacts.php']['t03']; ?>
-					<?php
-					if (isset($settings_email) && $settings_email!='') 
-							{echo '<p><b>'.$loc['contacts.php']['t04'].'</b><br /><a href="mailto:'.$settings_email.'">'.$settings_email.'</a></p>';}
-					?>
-					<p>
-						<b><?php echo $loc['contacts.php']['t05']; ?></b><br />
-						<?php 
-						// Данные выводятся из базы MySQL, таблица "settings"
-						// Data is output from the MySQL database, table "settings"
-						if (isset($settings_icq) && $settings_icq!='') 
-							{echo $loc['contacts.php']['t06'].'&nbsp;'.$settings_icq.'<br />';}
-						
-						if (isset($settings_skype) && $settings_skype!='') 
+		<div class="contact-info">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 col-xs-12">
+						<h3>CREDENTIALS</h3>
+						<span>Postal address</span>
+						<p>Control Access LP 
+							No. SL17120 
+							SUITE 2,5ST VINCENT STREET 
+							EDINBURGH, EH3 6SW 
+							SCOTLAND, UK
+						</p>
+						<span>Skype support</span>
+						<p>
+							
+							<?php
+							if (isset($settings_skype) && $settings_skype!='') 
 							{echo $loc['contacts.php']['t07'].'&nbsp;<a href="skype:'.$settings_skype.'?add">'.$settings_skype.'</a><br />';}
-						
-						if (isset($settings_email) && $settings_email!='') 
-							{echo $loc['contacts.php']['t08'].'&nbsp;<a href="mailto:'.$settings_email.'">'.$settings_email.'</a><br />';}
-						
-						if (isset($settings_phone) && $settings_phone!='') 
-							{echo $loc['contacts.php']['t09'].'&nbsp;'.$settings_phone.'<br />';}
-						?>
- 					</p>
-					<p>
-						<?php echo $loc['contacts.php']['t10']; ?>
-					</p>					
-				</div>
-			</div>
-		</div>
+							?>
 
-		<?php
-		// То что выводится на каждой странице до авторизации
-		// What is displayed on each page to login
-		include './templates/'.$template.'/blocks/always_not_login.php';
+						</p>
 
-		// Выводим нижнее горизонтальное меню
-		// Display the bottom horizontal menu
-		include './templates/'.$template.'/blocks/bottom_menu_not_login.php';
-		?>
+						<span>E-Mail support</span>
+						<p>
+							<?php
+							if (isset($settings_email) && $settings_email!='') 
+									{echo '<p><b>'.$loc['contacts.php']['t04'].'</b><br /><a href="mailto:'.$settings_email.'">'.$settings_email.'</a></p>';}
+							?>
+						</p>
 
-	</div>
+						<span>Business Hours</span>
+						<p>24-hour support</p>
+					</div>
+					<div class="col-sm-8 col-xs-12">
+						<h3>FEEDBACK</h3>
+						<form class="contact-form">
+							<div class="row">
+								<div class="col-sm-6 col-xs-12"><input class="form-control" type="text" placeholder="Your Name"></div>
+								<div class="col-sm-6 col-xs-12"><input class="form-control" type="mail" placeholder="Your Email"></div>
+								<div class="col-sm-12 col-xs-12">
+									<select class="form-control">
+										<option value="0" selected="selected" disabled="disabled">Buraya ne gelcek</option>
+										<option value="0">Advertiser Inquiry</option>
+										<option value="0">Publisher Inquiry</option>
+										<option value="0">Technical Issue</option>
+										<option value="0">Other</option>
+									</select>
+								</div>
+								<div class="col-sm-12 col-xs-12"><input class="form-control" type="text" placeholder="Your Subject"></div>
+								<div class="col-sm-12 col-xs-12"><textarea class="form-control" placeholder="Message"></textarea></div>
+								<div class="col-sm-4 col-xs-12"><button type="submit" class="btn">Submit Form</button></div>
+							</div><!-- row -->
+						</form>
+					</div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</div><!-- contact-info -->
 
-	<?php
-	// Выводим форму логина
-	// Display the login form
-	include './templates/'.$template.'/blocks/login_form.php';
-	?>
+	</main>
 
 	<script src="./templates/<?php echo $template; ?>/js/scripts.js"></script>
-	
-	<!--[if lt IE 10]>
-	<script src="./templates/<?php echo $template; ?>/js/attrplaceholder.js"></script>
-	<![endif]-->

@@ -9,9 +9,6 @@
 		// Print cap site
 		include './templates/'.$template.'/blocks/shapka_not_login.php';
 
-		// Выводим верхнее горизонтальное меню
-		// Display the top horizontal menu
-		include './templates/'.$template.'/blocks/top_menu_not_login.php';
 		?>
 
 		<div class="page">
@@ -67,3 +64,22 @@
 	<!--[if lt IE 10]>
 	<script src="./templates/<?php echo $template; ?>/js/attrplaceholder.js"></script>
 	<![endif]-->
+
+
+
+
+
+	<div class="sidebar-navigation">
+		<div class="sidebar-menu"></div>
+	</div><!-- sidebar-navigation -->
+	<div class="sidebar-overlay close-btn"></div>
+
+	<div class="blog-inwrap">
+
+
+		<?php
+		// Выводим шапку сайта
+		// Print cap site
+		include './templates/'.$template.'/blocks/shapka_not_login.php';
+
+		?>

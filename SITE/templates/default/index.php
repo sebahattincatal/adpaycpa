@@ -1,122 +1,98 @@
 
-	<div class="wrapper">
-		<!--[if lt IE 9]>
-			<div class="browsehappy"><?php echo $loc['service']['t01']; ?></div>
-		<![endif]-->
+	<main>
+		<div class="main-slider">
+			<ul>
+				<li>
+					<div class="slider-content">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-3 col-sm-12 col-xs-12 wow fadeInLeft animated">
+									<div class="slider-text">
+										<h2><?php echo $loc['index.php']['t03']; ?></h2>
+										<p>Want to quickly and profitably sell your traffic?</p>
+										<div class="slider-buttons">
+											<a href="#">Web Master</a>
+										</div><!-- slider-buttons -->
+									</div><!-- slider-text -->
+									<div class="slider-text">
+										<h2><?php echo $loc['index.php']['t04']; ?></h2>
+										<p>Selling real goods, services or digital products?</p>
+										<div class="slider-buttons">
+											<a href="#">Advertiser</a>
+										</div><!-- slider-buttons -->
+									</div><!-- slider-text -->
+								</div>
+								<div class="col-md-9 col-sm-12 col-xs-12 wow fadeInRight animated">
+									<img src="./templates/<?php echo $template; ?>/images/slider-image-01.png">
+								</div>
+							</div><!-- row -->
+						</div><!-- container -->
+					</div><!-- slider-content -->
+				</li>
+			</ul>
+		</div><!-- main-slider -->
 
-		<?php
-		// Выводим шапку сайта
-		// Print the cap site
-		include './templates/'.$template.'/blocks/shapka_not_login.php';
-
-		// Выводим верхнее горизонтальное меню
-		// Display the top horizontal menu
-		include './templates/'.$template.'/blocks/top_menu_not_login.php';
-		?>
-
-		<div class="grab">
-			<div class="cnt">
-				<div class="grab__title"><?php echo $loc['index.php']['t01']; ?></div>
-				<div class="grab__mini"><?php echo $loc['index.php']['t02']; ?></div>
-				<div class="grab__question">
-					<span class="img-icon-grab1"></span>
-					<?php echo $loc['index.php']['t03']; ?>
-				</div>
-				<div class="grab__question">
-					<span class="img-icon-grab2"></span>
-					<?php echo $loc['index.php']['t04']; ?>
-				</div>
-				<div class="grab__center">
-					<?php
-					// Если регистрация полностью выключена для всех, то выводим сообщение об этом.
-					// If the registration is completely disabled for all, the message of this.
-					if ($settings_registration_wm!='1' && $settings_registration_rk!='1') 
-						{
-						echo $loc['index.php']['t05'];
-						}
-					else
-						{
-						echo $loc['index.php']['t06'];
-						}
-					?>
-				</div>
-
-				<?php
-				// Если регистрация разрешена хотя бы для одной роли, то выводим форму регистрации
-				// If the registration is allowed for at least one role, a registration form
-				if ($settings_registration_wm=='1' || $settings_registration_rk=='1') 
-					{
-					?>
-					<div class="grab__wrap-form">
-						<?php
-						// Выводим форму регистрации
-						// Print the registration form
-						include './templates/'.$template.'/blocks/registration_form.php';
-						?>
-					</div>
-					<?php
-					}
-				?>
+		<div class="home-module module-white how-works-module">
+			<div class="container">
 				
-			</div>
-		</div>
+				<div class="module-title wow fadeInDown center animated"><h3>How it works</h3></div>
 
-		<div class="steps">
-			<div class="cnt">
-				<div class="steps__title"><?php echo $loc['index.php']['t07']; ?></div>
-				<div class="steps__item">
-					<span class="img-icon-step1"></span>
-					<div>
-						<?php echo $loc['index.php']['t08']; ?>
-					</div>
-				</div>
-				<div class="steps__item steps__item_center">
-					<span class="img-icon-step2"></span>
-					<div>
-						<?php echo $loc['index.php']['t09']; ?>
-					</div>
-				</div>
-				<div class="steps__item">
-					<span class="img-icon-step3"></span>
-					<div>
-						<?php echo $loc['index.php']['t10']; ?>
-					</div>
-				</div>
-			</div>
-		</div>
+				<div class="module-works">
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+							<div class="icon-image"><img src="./templates/<?php echo $template; ?>/images/puzzle.png"></div>
+							<h3><?php echo $loc['index.php']['t08']; ?></h3>
+							<p>to the advertiser’s site or landing</p>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp center animated" data-wow-offset="10" data-wow-duration="1.5s">
+							<div class="icon-image"><img src="./templates/<?php echo $template; ?>/images/map.png"></div>
+							<h3><?php echo $loc['index.php']['t09']; ?></h3>
+							<p>of advertiser pays for product or service</p>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+							<div class="icon-image"><img src="./templates/<?php echo $template; ?>/images/savings.png"></div>
+							<h3><?php echo $loc['index.php']['t10']; ?></h3>
+							<p>Web-Master gets remuneration</p>
+						</div>
+					</div><!-- row -->
+				</div><!-- module-works -->
 
-		<div class="cooperation">
-			<div class="cnt">
-				<div class="cooperation__title"><span><?php echo $loc['index.php']['t11']; ?></span></div>
-				<span class="cooperation__wrap-button"><button class="cooperation__button" onClick="window.location.href = './';"><span><?php echo $loc['index.php']['t12']; ?></span></button></span>
-			</div>
-		</div>
+			</div><!-- container -->
+		</div><!-- module-white -->
 
-		<div class="advantages">
-			<div class="cnt">
-				<div class="advantages__title"><?php echo $loc['index.php']['t13']; ?></div>
-				<div class="advantages__img">
-					<span class="img-advantages"></span>
-					<div class="advantages__text advantages__text_pos1">
-						<?php echo $loc['index.php']['t14']; ?>
+		<div class="home-module module-blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft animated">
+						<div class="original-graphic"><img class="graphic-image" src="./templates/<?php echo $template; ?>/images/original-graphic.png"></div>
 					</div>
-					<div class="advantages__text advantages__text_pos2">
-						<?php echo $loc['index.php']['t15']; ?>
-					</div>
-					<div class="advantages__text advantages__text_pos3">
-						<?php echo $loc['index.php']['t16']; ?>
-					</div>
-				</div>
-			</div>
-		</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="module-title wow fadeInDown animated"><h3><?php echo $loc['index.php']['t13']; ?></h3><span>Would you like to become part of our team?</span></div>
 
-		<?php
-		// Выводим нижнее горизонтальное меню
-		// Display the bottom horizontal menu
-		include './templates/'.$template.'/blocks/bottom_menu_not_login.php';
-		?>
+						<div class="module-advertiser">
+							<h3 class="wow fadeInUp animated" data-wow-delay="0s" data-wow-duration="1.5s">START COOPERATION RIGHT NOW</h3>
+							<span class="wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="1.5s">ADVERTISING NETWORK №1
+for online-sales of goods and services</span>
+							<ul>
+								<li class="wow fadeInRight animated animated" data-wow-delay="0s" data-wow-duration="1.5s"><img src="./templates/<?php echo $template; ?>/images/check.png"> <p><?php echo $loc['index.php']['t14']; ?></p></li>
+								<li class="wow fadeInRight animated animated" data-wow-delay="0.1s" data-wow-duration="1.5s"><img src="./templates/<?php echo $template; ?>/images/check.png"> <p><?php echo $loc['index.php']['t15']; ?></p></li>
+								<li class="wow fadeInRight animated animated" data-wow-delay="0.2s" data-wow-duration="1.5s"><img src="./templates/<?php echo $template; ?>/images/check.png"> <p><?php echo $loc['index.php']['t16']; ?></p></li>
+							</ul>
+						</div><!-- module-advertiser -->
+						<div class="module-adv-button wow fadeInUp animated animated">
 
-	</div>
+							<a href="./registration.php" class="menu__link">
+								<span class="img-icon-menu6"></span>
+								REGISTRATION
+							</a>
+
+						</div><!-- module-adv-button -->
+					</div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</div><!-- home-module -->
+
+	</main>
 
 	<?php
 	// Выводим форму логина
@@ -125,8 +101,3 @@
 	?>
 
 	<script src="./templates/<?php echo $template; ?>/js/scripts.js"></script>
-	
-	<!--[if lt IE 10]>
-	<script src="./templates/<?php echo $template; ?>/js/attrplaceholder.js"></script>
-	<![endif]-->
-	

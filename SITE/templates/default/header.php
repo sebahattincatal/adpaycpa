@@ -1,20 +1,41 @@
+
 <!doctype html>
-<!--[if IE 7]> <html class="ie ie7"> <![endif]-->
-<!--[if IE 8]> <html class="ie ie8"> <![endif]-->
-<!--[if IE 9]> <html class="ie ie9"> <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="ru"> <!--<![endif]-->
+<html>
 <head>
-	<title><?php echo $page_title; ?></title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="format-detection" content="telephone=no">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="0">	
-	<link rel="stylesheet" href="./templates/<?php echo $template; ?>/css/styles-notlogin.css">
-	<link rel="stylesheet" href="./templates/<?php echo $template; ?>/css/buttons.css">
-	<link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAyuf/AEZGRgCOjo8AT09PABvA/wBN0v8AlZWVAP39/QCwsLAAAML/AAS1/wD+//8A////AObm5gAAl/8AALv/AHd3dwDj9/8A8fHxAAGQ/wCkpKQATk5OAACq/wB20v8AlJSUAACg/wDQ8/4A/Pz8AJ2dnQDa2toAUFBQAFlZWQCNjY0A9fX1AJjG4wAAj/8AW1tbAACz/wD39/cA5vn/AKqqqgBLS0sAAJ//AG9vbwCKiooAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0CDQ0NDA0NDQENDQ0NDQ0NJQ0NDRQNDSQkDQ0NDQ0ZDSUNDSMPDQ8PDQ0NDQ0NIgICAgIrKysaDQ0NDQ0CDQICAgIDFxcXFxgNDQ0NDQICHgICBSYmJiYLEg0NHAICAgICFhAQEAYNDQ0NDQ0IISACFRsKKA0NDQ0NDQ0tKQICAhMRIA4NDQ0NDQ0NDQ0CICwHAh8NDQ0NDQ0NDQ0NDSoCAgQJDQ0NDQ0NDQ0NDScdKg0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAA=" rel="icon" type="image/x-icon" />
-	<script src="./templates/<?php echo $template; ?>/js/jquery-1.11.3.min.js"></script>
-	<script src="./templates/<?php echo $template; ?>/js/jquery.placeholder.min.js"></script>
-	<script src="./templates/<?php echo $template; ?>/js/jquery.validate.min.js"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title><?php echo $page_title; ?></title>
+<meta name="description" content="Cpain - Advertising Network">
+
+<!-- STYLESHEET -->
+<link rel="stylesheet" href="./templates/<?php echo $template; ?>/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="./templates/<?php echo $template; ?>/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="./templates/<?php echo $template; ?>/css/slick.css" type="text/css">
+<link rel="stylesheet" href="./templates/<?php echo $template; ?>/css/animate.css" type="text/css">
+<link rel="stylesheet" href="./templates/<?php echo $template; ?>/css/style/style.css" type="text/css">
+<link rel="stylesheet" href="./templates/<?php echo $template; ?>/css/mobile-app.css" type="text/css">
+
+<!-- GOOGLE FONT -->
+<link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
+
+<!-- JQUERY -->
+<script type="text/javascript" src="./templates/<?php echo $template; ?>/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="./templates/<?php echo $template; ?>/js/jquery-migrate.min.js"></script>
+
 </head>
-<body>
+
+<body class="home">
+
+	<div class="sidebar-navigation">
+		<div class="sidebar-menu"></div>
+	</div><!-- sidebar-navigation -->
+	<div class="sidebar-overlay close-btn"></div>
+
+		<div class="blog-inwrap">
+
+		<?php
+			// Выводим шапку сайта
+			// Print cap site
+			include './templates/'.$template.'/blocks/shapka_not_login.php';
+		?>
